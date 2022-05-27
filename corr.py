@@ -5,13 +5,13 @@ import h5py
 seed_list=[42,23,27,88,66]
 # seed_list=[42,23,27,88]
 session_list=[
-              'm_ohp_session1',
-            #   'm_ohp_session2',
-              'm_stretch_session1',
-              'm_stretch_session2',
-            #   'n_stretch_session1',
-              's_ohp_session1',
-            #   's_stretch_session1'
+            #   'm_ohp_session1',
+            # #   'm_ohp_session2',
+            #   'm_stretch_session1',
+            #   'm_stretch_session2',
+            # #   'n_stretch_session1',
+            #   's_ohp_session1',
+              's_stretch_session1'
               ]
 model="st_resnet"
 # input_path="/home/helenr6"
