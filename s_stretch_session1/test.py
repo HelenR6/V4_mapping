@@ -1,6 +1,6 @@
 import numpy as np
-temp=np.load("st_resnet_42_synth_prediction.npy",allow_pickle=True)
-print(temp.shape)
+temp=np.load("st_resnet_42_natural_prediction.npy",allow_pickle=True)
+print(temp)
 # session="s_stretch_session1"
 # arch="st_resnet"
 # seed=42
