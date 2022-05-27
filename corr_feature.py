@@ -5,13 +5,13 @@ import h5py
 # seed_list=[42,23,27,88,66]
 seed_list=[42,23,27,88]
 session_list=[
-            #   'm_ohp_session1',
-            #   'm_ohp_session2',
-            #   'm_stretch_session1',
-            #   'm_stretch_session2',
-              'n_stretch_session1',
-            #   's_ohp_session1',
-            #   's_stretch_session1'
+              'm_ohp_session1',
+              'm_ohp_session2',
+              'm_stretch_session1',
+              'm_stretch_session2',
+            #   'n_stretch_session1',
+              's_ohp_session1',
+              's_stretch_session1'
               ]
 model="st_resnet"
 # input_path="/home/helenr6"
@@ -50,5 +50,5 @@ for session in session_list:
             total_natural_corr=np.vstack([total_natural_corr,natural_corr_array])
             total_synth_corr=np.vstack([total_synth_corr,synth_corr_array])
             cc=cc+1
-    np.save(f'/home/helenr6/V4_mapping/{session}/features_{model_type}_synth_neuron_corr.npy',total_synth_corr)
-    np.save(f'/home/helenr6/V4_mapping/{session}/features_{model_type}_natural_neuron_corr.npy',total_natural_corr)
+    np.save(f'/home/helenr6/V4_mapping/{session}/features_{model}_synth_neuron_corr.npy',total_synth_corr)
+    np.save(f'/home/helenr6/V4_mapping/{session}/features_{model}_natural_neuron_corr.npy',total_natural_corr)
