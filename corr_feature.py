@@ -9,7 +9,7 @@ session_list=[
               'm_ohp_session2',
               'm_stretch_session1',
               'm_stretch_session2',
-            #   'n_stretch_session1',
+              'n_stretch_session1',
               's_ohp_session1',
               's_stretch_session1'
               ]
