@@ -3,7 +3,7 @@ from scipy.stats.stats import pearsonr
 import h5py
 
 # seed_list=[42,23,27,88,66]
-seed_list=[42,23,27,88]
+seed_list=[42,23,27,88,66]
 session_list=[
               'm_ohp_session1',
               'm_ohp_session2',
